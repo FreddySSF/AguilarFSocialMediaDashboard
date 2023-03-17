@@ -1,3 +1,6 @@
+// Peer Reviewed By: Elizar Garcia
+// The project is well put together and looks really close to the original example. I like the use of styles and the dark mode works . Did not have responsiveness and the switch button, but a good solid project good job!
+
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./DarkToLight.css";
