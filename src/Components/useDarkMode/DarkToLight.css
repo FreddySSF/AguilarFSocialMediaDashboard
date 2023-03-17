@@ -1,0 +1,342 @@
+/* Dark Light CSS */
+
+.dark {
+  background-color: hsl(230, 17%, 14%);
+  color: hsl(0, 0%, 100%);
+}
+
+.light {
+  background-color: hsl(0, 0%, 100%);
+  color: black;
+}
+
+/* Card CSS */
+
+.card:hover {
+  background-color: hsl(225, 21%, 85%);
+}
+
+.card {
+  background-color: hsl(227, 47%, 96%);
+  height: 225px;
+  width: 250px;
+  margin-top: 25px;
+  color: hsl(230, 17%, 14%);
+}
+
+.card2 {
+  background-color: hsl(227, 47%, 96%);
+  height: 130px;
+  width: 250px;
+  margin-top: 15px;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardsRow {
+  margin-left: 30px;
+  margin-right: 35px;
+}
+
+.followers {
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(155, 155, 155);
+}
+
+.totalFollowers {
+  display: flex;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(112, 112, 112);
+}
+
+/* Card Header CSS */
+
+.cardTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 50px;
+}
+
+.cardTitleTwitter {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.cardTitleInstagram {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.cardTitleYoutube {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.cardTitle2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 180px;
+  margin-bottom: -40px;
+  font-size: 40px;
+}
+
+.cardTitle2Facebook1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 180px;
+  margin-bottom: -40px;
+  font-size: 40px;
+}
+
+.cardTitle2Facebook2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 140px;
+    margin-bottom: -30px;
+    font-size: 40px;
+}
+
+.cardTitle2Instagram1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 145px;
+  margin-bottom: -40px;
+  font-size: 40px;
+}
+
+.cardTitle2Instagram2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 140px;
+    margin-bottom: -40px;
+    font-size: 40px;
+  }
+
+.cardTitle2Youtube2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+    font-size: 40px;
+  }
+
+/* Card Username CSS */
+
+.cardUsername {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardUsernameTwitter {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardUsernameInstagram {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardUsernameYoutube {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardUsername2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardFacebook1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 110px;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardFacebook2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 110px;
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+}
+
+.cardUsername2Instagram2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: hsl(230, 17%, 14%);
+  }
+
+.cardUsername2Youtube2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: hsl(230, 17%, 14%);
+  }
+
+.imageMove {
+  margin-right: 5px;
+  margin-left: -15px;
+}
+
+/* Card Top Color CSS */
+
+.FacebookTop {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: hsl(208, 92%, 53%);
+  top: 0%;
+  left: 0%;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+
+.TwitterTop {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: hsl(203, 89%, 53%);
+  top: 0%;
+  left: 0%;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+
+.InstagramTop {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  top: 0%;
+  left: 0%;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+
+.YoutubeTop {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: hsl(348, 97%, 39%);
+  top: 0%;
+  left: 0%;
+  border-top-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+}
+
+/* Card Up and Down CSS */
+
+.upTextFacebook {
+  color: hsl(163, 72%, 41%);
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+.upTextFacebook2 {
+  color: hsl(163, 72%, 41%);
+  margin-left: 155px;
+  font-weight: bold;
+}
+
+.upTextTwitter2 {
+  color: hsl(163, 72%, 41%);
+  margin-left: 155px;
+  font-weight: bold;
+}
+
+.upTextInstagram2 {
+  color: hsl(163, 72%, 41%);
+  margin-left: 140px;
+  font-weight: bold;
+}
+
+.downTextYoutube2 {
+  color: hsl(356, 69%, 56%);
+  margin-left: 152px;
+  margin-top: 115x;
+  font-weight: bold;
+}
+
+.upTextTwitter {
+  color: hsl(163, 72%, 41%);
+  margin-left: 88px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+
+.upTextInstagram {
+  color: hsl(163, 72%, 41%);
+  margin-left: 77px;
+  font-weight: bold;
+}
+
+.downText {
+  color: hsl(356, 69%, 56%);
+  margin-left: 83px;
+  font-weight: bold;
+}
+
+.downTextFacebook {
+    color: hsl(356, 69%, 56%);
+   margin-top: 15px;
+   margin-left: 35px;
+    font-weight: bold;
+  }
+
+/* Button CSS */
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 350px;
+  margin-top: 40px;
+}
+
+/* Font Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Inter&family=Source+Sans+Pro&display=swap");
